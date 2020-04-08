@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+
+.hero{
+    background:url(../images/img17.jpeg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+.hero a{
+    font-size: 2.8em;
+    font-weight: 550;
+    color:white;
+    padding: 35px;
+    background-color: #0b4480;;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border-radius: 50px;
+}
+
+.hero a:hover{
+    color:yellow;
+    background: #000046;
+}
+
+/*
+.navbar{
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li{
+    display:inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.navbar ul li a:hover{
+    background:#000046;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+*/
+
+section{
+    width:65%;
+    margin: auto;
+    font-size:1.2em;
+    line-height: 1.8em;
+    color: rgba(0,0,0,0.7);
+}
+
+section h3{
+    text-align: center;
+    font-size:2.15em;
+    font-weight: 500;
+    color: black;
+}
+
+section p{
+    margin-top: 30vh;
+}
+
+/*Footer*/
+footer{
+    height:60vh;
+    color:white;
+    background:#000046;
+    margin-top:20em;
+    position: relative;
+}
+
+.large-area{
+    display:flex;
+    width:90%;
+    margin: auto;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.links{
+    position: absolute;
+    left:0;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.links:hover{
+    color: yellow;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links p{
+    font-size: 1.6em;
+    font-weight:500px;
+}
+  
+
+.links li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+}
+
+.links li a:hover{
+    color: yellow;
+}
+
+.social-media{
+    font-size: 1.6em;
+    font-weight:500px;
+    margin-top: 70px;
+    margin-left:150px;
+}
+
+.social-media:hover{
+    color:yellow;
+}
+
+footer .social-media img{
+    height:40px;
+    width:40px;
+}
+
+.newsletter{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.newsletter p:hover{
+    color: yellow;
+}
+
+.newsletter input[type="submit"]:hover{
+    background: yellow;
+    color: black;
+}
+
+
+.developers ul{
+    list-style: none;
+}
+
+.developers{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.developers:hover{
+    color: yellow;
+}
+
+
+.developers li{
+    text-decoration: none;
+}
+
+.developers p{
+    font-size: 1.6em;
+    font-weight:500px;
+}
+
+.developers li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.developers li a:hover{
+    color: yellow;
+}
+
+
+.newsletter p{
+    font-size: 1.6em;
+    font-weight:500px;
+}
+.newsletter input[type="submit"]{
+    background:white;
+    border-radius:8px;
+    color: rgb(175, 174, 174);
+    padding: 8px;
+    outline: none;
+    font-size: 1em;
+}
+
+.newsletter input[type="text"]{
+    padding:10px 30px;
+    background: rgba(255, 255, 255, 0.px);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+
+.small-area{
+    position: absolute;
+    bottom:5px;
+    text-align: center;
+    left: 40%;
+    font-size:1.4em;
+    display: block;
+    border-top: 1px solid yellow;
+}
+
+.small-area p:hover{
+    color: yellow;
+}

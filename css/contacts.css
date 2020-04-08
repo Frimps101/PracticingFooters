@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    line-height: 1.5em;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.clr{
+    clear: both;
+}
+
+#hero{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/img18.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero a{
+    text-decoration: none;
+    color:white;
+    background: #0b4480;
+    font-size: 2.4em;
+    font-weight: 550;
+    color:white;
+    padding: 33px;
+    border-radius: 50px;
+}
+
+#hero a:hover{
+    color: yellow;
+    background: #000046;
+}
+
+/*
+.navbar{
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li{
+    display:inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.navbar ul li a:hover{
+    background:#000046;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+*/
+
+.preview{
+    width:65%;
+    margin:auto;
+}
+
+.preview p{
+    padding: 20px;
+    font-size: 1.2em;
+    opacity: 0.6;
+    line-height: 2em;
+    margin-top: 30vh;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b4480;
+    
+    height: 60vh;
+    margin: 200px;
+    width: 58%;
+    padding: 40px;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+}
+
+.contacts:hover{
+    color:white;
+    background: #000046;
+}
+
+.contacts ul{
+    list-style: none;
+}
+
+.contacts li{
+    padding:10px;
+}
+
+.contacts ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.contacts p{
+    display: inline;
+    font-size:1.3em;
+    color: white;
+    line-height: 2em;
+    padding-left: 10px;
+}
+
+.contacts ul p:hover{
+    color:yellow;
+}
+
+.contacts img{
+    height: 40px;
+    width: 40px;
+}
+
+footer{
+    height:60vh;
+    color:white;
+    background:#000046;
+    margin-top:20em;
+    position: relative;
+}
+
+.large-area{
+    display:flex;
+    width:90%;
+    margin: auto;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.links{
+    position: absolute;
+    left:0;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.links:hover{
+    color: yellow;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+  
+
+.links li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+}
+
+.links li a:hover{
+    color: yellow;
+}
+
+.social-media{
+    font-size: 1.4em;
+    font-weight:500px;
+    margin-top: 70px;
+    margin-left:150px;
+}
+
+/*
+.social-media:hover{
+    color:yellow;
+}*/
+
+footer .social-media img{
+    height:40px;
+    width:40px;
+}
+
+.newsletter{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.newsletter p:hover{
+    color: yellow;
+}
+
+.newsletter input[type="submit"]:hover{
+    background: yellow;
+    color: black;
+}
+
+
+.developers ul{
+    list-style: none;
+}
+
+.developers{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.developers:hover{
+    color: yellow;
+}
+
+
+.developers li{
+    text-decoration: none;
+}
+
+.developers p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+
+.developers li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.developers li a:hover{
+    color: yellow;
+}
+
+
+.newsletter p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+.newsletter input[type="submit"]{
+    background:white;
+    border-radius:8px;
+    color: rgb(175, 174, 174);
+    padding: 8px;
+    outline: none;
+    font-size: 1em;
+}
+
+.newsletter input[type="text"]{
+    padding:10px 30px;
+    background: rgba(255, 255, 255, 0.px);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+
+.small-area{
+    position: absolute;
+    bottom:5px;
+    text-align: center;
+    left: 40%;
+    font-size:1.4em;
+    display: block;
+    border-top: 1px solid yellow;
+}
+
+.small-area p:hover{
+    color: yellow;
+}

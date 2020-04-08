@@ -1,0 +1,361 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    line-height: 1.5em;
+    scroll-behavior: smooth;
+    font-family:sans-serif;
+}
+
+.clr{
+    clear: both;
+}
+
+.hero{
+    background: url(../images/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li{
+    display:inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding:9px;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin: 7px;
+}
+
+.navbar ul li a:hover{
+    background:#000046;
+    color:yellow;
+    padding:8px 18px;
+    border-radius:20px;
+}
+
+.hero-text{
+    position: absolute;
+    top:45%;
+    color: white;
+    padding-left: 6px;
+    line-height: 1.9em;
+}
+
+.hero-text h1{
+    font-size:2.4em;
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+
+.hero-text p{
+    font-size: 1.3em;
+    margin-top: 5px;
+
+}
+
+.hero-text p:hover{
+    color:yellow;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid black;
+    background:transparent;
+    padding: 14px 18px;
+    border-radius: 35px; 
+    font-size: 1em;
+    outline: none;
+    border-color: #f4f4f4;
+}
+
+.btn:hover{
+    background:#000046;
+    color:white;
+    border-color: yellow;
+}
+
+span{
+    color:#000046;
+}
+
+span:hover{
+    color: yellow;
+}
+
+/* Our Work */
+.container{
+    display:flex;
+    width: 70%;
+    margin:auto;
+    justify-content: space-around;
+}
+
+.container div #img{
+    background: white;
+    padding: 20px;
+}
+
+.container .images{
+    width:350px;
+    height:350px;
+}
+
+ h4{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.flex-txt{
+    font-size:1em;
+    line-height: 1.4em;
+    opacity: 0.6;
+    text-align:center;
+}
+
+
+.who-we-are{
+    width:80%;
+    margin:auto;
+}
+
+.lap-img{
+    float: left;
+    width: 60vw;
+    margin-top: 40vh;
+    height:50vh;
+}
+
+.lap-img img{
+    width: 700px;
+    height:500px;
+}
+
+.who-we-are-text{
+    background: #0b4480;
+    float: right;
+    width: 40vw;
+    height:40vh;
+    color: white;
+    text-align: center;
+    padding-top: 15vh;
+    font-size:1.2em;
+    line-height: 1.6em;
+    padding: 15px; 
+    
+}
+
+.who-we-are-text:hover{
+    color: white;
+    background:#000046;
+}
+
+
+#what_we_do{
+    margin-top:40vh;
+    margin-bottom: 20vh;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+/*Portfolios*/
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 7px;
+}
+
+.port{
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.port img{
+    width:300px;
+    height: 300px;
+}
+
+#portfolio{
+    margin-top:40vh;
+    margin-bottom: 20vh;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+/* Footer */
+
+footer{
+    height:60vh;
+    color:white;
+    background:#000046;
+    margin-top:20em;
+    position: relative;
+}
+
+.large-area{
+    display:flex;
+    width:90%;
+    margin: auto;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.links{
+    position: absolute;
+    left:0;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.links:hover{
+    color: yellow;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+  
+
+.links li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+}
+
+.links li a:hover{
+    color: yellow;
+}
+
+.social-media{
+    font-size: 1.4em;
+    font-weight:500px;
+    margin-top: 70px;
+    margin-left:150px;
+}
+
+.social-media:hover{
+    color:yellow;
+}
+
+footer .social-media img{
+    height:32px;
+    width:32px;
+}
+
+.newsletter{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.newsletter p:hover{
+    color: yellow;
+}
+
+.newsletter input[type="submit"]:hover{
+    background: yellow;
+    color: black;
+}
+
+
+.developers ul{
+    list-style: none;
+}
+
+.developers{
+    margin-top: 70px;   
+    margin-right: 0px;
+}
+
+.developers:hover{
+    color: yellow;
+}
+
+
+.developers li{
+    text-decoration: none;
+}
+
+.developers p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+
+.developers li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    margin-top: 70px;
+    line-height: 1.8em;
+}
+
+.developers li a:hover{
+    color: yellow;
+}
+
+
+.newsletter p{
+    font-size: 1.4em;
+    font-weight:500px;
+}
+.newsletter input[type="submit"]{
+    background:white;
+    border-radius:8px;
+    color: rgb(175, 174, 174);
+    padding: 8px;
+    outline: none;
+    font-size: 1em;
+}
+
+.newsletter input[type="text"]{
+    padding:10px 30px;
+    background: rgba(255, 255, 255, 0.px);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+
+.small-area{
+    position: absolute;
+    bottom:5px;
+    text-align: center;
+    left: 40%;
+    font-size:1.2em;
+    display: block;
+    border-top: 1px solid yellow;
+    margin-top: 10px;
+}
+
+.small-area p:hover{
+    color: yellow;
+}
+    
